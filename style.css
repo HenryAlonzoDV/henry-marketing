@@ -1,3 +1,4 @@
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -14,13 +15,25 @@ body {
     border-bottom: 1px solid #ddd;
 }
 .product img {
-    width: 150px;
+    width: 40%; /* Imagen ocupa el 40% */
     height: auto;
     margin-right: 20px;
 }
 .description {
-    flex: 1;
+    width: 60%; /* Descripción ocupa el 60% */
 }
+.product1 {
+    background-color: #F3FA82;
+}
+
+.product2 {
+    background-color: #050505;
+    color: #F3FA82;
+}
+
+#titulo-producto2 {
+    color: yellow; /* Cambia esto por el color que desees (rojo en este caso) */
+
 .price {
     font-weight: bold;
     color: #008000;
