@@ -69,5 +69,44 @@ h2 {
     font-weight: bold;
 }
 .product-button:hover {
-    background-color: #065980; /* Color más oscuro al pasar el cursor */
+    background-color: #065980; 
+}
+
+@media (max-width: 768px) {
+    .product {
+        flex-direction: column; /* Cambia a diseño vertical */
+        text-align: center;
+    }
+
+    .product img {
+        width: 100%; /* Imagen ocupa todo el ancho */
+        margin: 0 0 20px 0; /* Espaciado inferior */
+    }
+
+    .description {
+        width: 100%; /* Descripción ocupa todo el ancho */
+    }
+
+    .price {
+        font-size: 25px; /* Ajusta el tamaño de la fuente */
+    }
+
+    .product-button {
+        font-size: 20px; /* Botón más pequeño */
+    }
+}
+
+@media (max-width: 480px) {
+    h2 {
+        font-size: 28px; /* Reduce tamaño del título */
+    }
+
+    .price {
+        font-size: 20px;
+    }
+
+    .product-button {
+        padding: 10px 15px;
+        font-size: 18px; /* Botón más pequeño */
+    }
 }
