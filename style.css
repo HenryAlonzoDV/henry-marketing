@@ -26,6 +26,7 @@ h2 {
 }
 .description {
     width: 60%; /* Descripción ocupa el 60% */
+    font-size: 18px;
 }
 .product1 {
     background-color: #F3FA82;
